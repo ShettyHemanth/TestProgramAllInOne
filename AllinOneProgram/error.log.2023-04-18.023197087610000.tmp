@@ -1,0 +1,315 @@
+2023-04-18T18:48:00.554+05:30  INFO 9680 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 9680 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T18:48:00.562+05:30  INFO 9680 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T18:48:01.666+05:30  INFO 9680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T18:48:01.750+05:30  INFO 9680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2023-04-18T18:48:02.549+05:30  INFO 9680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T18:48:02.569+05:30  INFO 9680 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18T18:48:02.570+05:30  INFO 9680 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-18T18:48:02.739+05:30  INFO 9680 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18T18:48:02.740+05:30  INFO 9680 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2102 ms
+2023-04-18T18:48:02.994+05:30  INFO 9680 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T18:48:03.065+05:30  INFO 9680 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T18:48:03.585+05:30  INFO 9680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T18:48:03.899+05:30  INFO 9680 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6b5c134e
+2023-04-18T18:48:03.901+05:30  INFO 9680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T18:48:03.956+05:30  INFO 9680 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T18:48:06.234+05:30  INFO 9680 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T18:48:06.244+05:30  INFO 9680 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T18:48:06.903+05:30  WARN 9680 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T18:48:07.443+05:30  WARN 9680 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T18:48:07.491+05:30  INFO 9680 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T18:48:07.509+05:30  INFO 9680 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 7.647 seconds (process running for 8.76)
+2023-04-18T19:20:48.533+05:30  INFO 9680 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:20:48.537+05:30  INFO 9680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18T19:20:48.572+05:30  INFO 9680 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18T19:21:08.345+05:30  INFO 11920 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 11920 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T19:21:08.350+05:30  INFO 11920 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T19:21:10.109+05:30  INFO 11920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T19:21:10.281+05:30  INFO 11920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 1 JPA repository interfaces.
+2023-04-18T19:21:12.053+05:30  INFO 11920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T19:21:12.077+05:30  INFO 11920 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18T19:21:12.078+05:30  INFO 11920 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-18T19:21:12.316+05:30  INFO 11920 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18T19:21:12.317+05:30  INFO 11920 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3884 ms
+2023-04-18T19:21:12.734+05:30  INFO 11920 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T19:21:12.886+05:30  INFO 11920 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T19:21:13.689+05:30  INFO 11920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T19:21:14.116+05:30  INFO 11920 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c5f29c6
+2023-04-18T19:21:14.120+05:30  INFO 11920 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T19:21:14.241+05:30  INFO 11920 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T19:21:15.792+05:30  INFO 11920 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T19:21:15.812+05:30  INFO 11920 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:21:17.012+05:30  WARN 11920 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T19:21:18.010+05:30  WARN 11920 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T19:21:18.084+05:30  INFO 11920 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T19:21:18.104+05:30  INFO 11920 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 10.478 seconds (process running for 12.261)
+2023-04-18T19:21:44.998+05:30  INFO 11920 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18T19:21:44.999+05:30  INFO 11920 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18T19:21:45.002+05:30  INFO 11920 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-18T19:21:45.096+05:30  INFO 11920 --- [http-nio-7070-exec-1] c.h.A.controller.StudentController       : This is the method start
+2023-04-18T19:21:45.097+05:30  INFO 11920 --- [http-nio-7070-exec-1] c.h.A.controller.StudentController       : This is the method start
+2023-04-18T19:21:45.097+05:30  INFO 11920 --- [http-nio-7070-exec-1] c.h.A.controller.StudentController       : Inside the Get Service  Method
+2023-04-18T19:23:00.727+05:30  INFO 11920 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:23:00.732+05:30  INFO 11920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18T19:23:00.748+05:30  INFO 11920 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18T19:23:09.414+05:30  INFO 6720 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 6720 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T19:23:09.418+05:30  INFO 6720 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T19:23:10.431+05:30  INFO 6720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T19:23:10.508+05:30  INFO 6720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2023-04-18T19:23:11.410+05:30  INFO 6720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T19:23:11.420+05:30  INFO 6720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18T19:23:11.420+05:30  INFO 6720 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-18T19:23:11.521+05:30  INFO 6720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18T19:23:11.522+05:30  INFO 6720 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2013 ms
+2023-04-18T19:23:11.713+05:30  INFO 6720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T19:23:11.776+05:30  INFO 6720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T19:23:12.170+05:30  INFO 6720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T19:23:12.367+05:30  INFO 6720 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@100d0218
+2023-04-18T19:23:12.369+05:30  INFO 6720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T19:23:12.443+05:30  INFO 6720 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T19:23:13.484+05:30  INFO 6720 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T19:23:13.494+05:30  INFO 6720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:23:14.229+05:30  WARN 6720 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T19:23:14.778+05:30  WARN 6720 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T19:23:14.819+05:30  INFO 6720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T19:23:14.831+05:30  INFO 6720 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 6.052 seconds (process running for 6.973)
+2023-04-18T19:23:23.569+05:30  INFO 6720 --- [http-nio-7070-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18T19:23:23.572+05:30  INFO 6720 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18T19:23:23.575+05:30  INFO 6720 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-18T19:23:23.642+05:30  INFO 6720 --- [http-nio-7070-exec-2] c.h.A.controller.StudentController       : This is Inside Get Method 
+2023-04-18T19:23:23.642+05:30  INFO 6720 --- [http-nio-7070-exec-2] c.h.A.controller.StudentController       : This is Inside Get Method 
+2023-04-18T19:24:20.352+05:30  INFO 6720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:24:20.356+05:30  INFO 6720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18T19:24:20.371+05:30  INFO 6720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18T19:24:30.297+05:30  INFO 7856 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 7856 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T19:24:30.301+05:30  INFO 7856 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T19:24:31.297+05:30  INFO 7856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T19:24:31.384+05:30  INFO 7856 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2023-04-18T19:24:32.092+05:30  INFO 7856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T19:24:32.108+05:30  INFO 7856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18T19:24:32.108+05:30  INFO 7856 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-18T19:24:32.225+05:30  INFO 7856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18T19:24:32.226+05:30  INFO 7856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1847 ms
+2023-04-18T19:24:32.413+05:30  INFO 7856 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T19:24:32.482+05:30  INFO 7856 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T19:24:32.883+05:30  INFO 7856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T19:24:33.075+05:30  INFO 7856 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@685d7ba5
+2023-04-18T19:24:33.078+05:30  INFO 7856 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T19:24:33.157+05:30  INFO 7856 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T19:24:34.287+05:30  INFO 7856 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T19:24:34.308+05:30  INFO 7856 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:24:35.047+05:30  WARN 7856 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T19:24:35.506+05:30  WARN 7856 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T19:24:35.547+05:30  INFO 7856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T19:24:35.572+05:30  INFO 7856 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 5.907 seconds (process running for 6.863)
+2023-04-18T19:24:39.924+05:30  INFO 7856 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18T19:24:39.924+05:30  INFO 7856 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18T19:24:39.925+05:30  INFO 7856 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-04-18T19:24:39.962+05:30  INFO 7856 --- [http-nio-7070-exec-1] c.h.A.controller.StudentController       : This is Inside Get Method 
+2023-04-18T19:25:23.619+05:30  INFO 7856 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:25:23.629+05:30  INFO 7856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18T19:25:23.647+05:30  INFO 7856 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18T19:25:32.660+05:30  INFO 5620 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 5620 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T19:25:32.664+05:30  INFO 5620 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T19:25:33.645+05:30  INFO 5620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T19:25:33.721+05:30  INFO 5620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2023-04-18T19:25:34.658+05:30  INFO 5620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T19:25:34.671+05:30  INFO 5620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18T19:25:34.671+05:30  INFO 5620 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-18T19:25:34.789+05:30  INFO 5620 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18T19:25:34.790+05:30  INFO 5620 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2048 ms
+2023-04-18T19:25:35.012+05:30  INFO 5620 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T19:25:35.074+05:30  INFO 5620 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T19:25:35.423+05:30  INFO 5620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T19:25:35.692+05:30  INFO 5620 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61ab6521
+2023-04-18T19:25:35.695+05:30  INFO 5620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T19:25:35.761+05:30  INFO 5620 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T19:25:36.994+05:30  INFO 5620 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T19:25:37.011+05:30  INFO 5620 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:25:37.832+05:30  WARN 5620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T19:25:38.457+05:30  WARN 5620 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T19:25:38.497+05:30  INFO 5620 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T19:25:38.509+05:30  INFO 5620 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 6.489 seconds (process running for 7.432)
+2023-04-18T19:25:42.368+05:30  INFO 5620 --- [http-nio-7070-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18T19:25:42.368+05:30  INFO 5620 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18T19:25:42.372+05:30  INFO 5620 --- [http-nio-7070-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-04-18T19:25:42.455+05:30  INFO 5620 --- [http-nio-7070-exec-2] c.h.A.controller.StudentController       : This is Inside Get Method 
+2023-04-18T19:33:04.801+05:30  INFO 5620 --- [http-nio-7070-exec-5] c.h.A.controller.StudentController       : This is Inside Get Method 
+2023-04-18T19:33:04.802+05:30  INFO 5620 --- [http-nio-7070-exec-5] c.h.A.controller.StudentController       : Inside the Post  Method  for adding the data 
+2023-04-18T19:33:04.802+05:30  INFO 5620 --- [http-nio-7070-exec-5] c.h.A.controller.StudentController       : Inside the Post Service  Method
+2023-04-18T19:47:02.738+05:30  INFO 5620 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:47:02.743+05:30  INFO 5620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18T19:47:02.761+05:30  INFO 5620 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18T19:47:11.540+05:30  INFO 11088 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 11088 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T19:47:11.544+05:30  INFO 11088 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T19:47:12.523+05:30  INFO 11088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T19:47:12.617+05:30  INFO 11088 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2023-04-18T19:47:13.148+05:30  WARN 11088 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed
+2023-04-18T19:47:13.162+05:30  INFO 11088 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-04-18T19:47:13.185+05:30 ERROR 11088 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'projectingArgumentResolverBeanPostProcessor' defined in class path resource [org/springframework/data/web/config/ProjectingArgumentResolverRegistrar.class]: BeanPostProcessor before instantiation of bean failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:273) ~[spring-context-6.0.7.jar:6.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:763) ~[spring-context-6.0.7.jar:6.0.7]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:568) ~[spring-context-6.0.7.jar:6.0.7]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304) ~[spring-boot-3.0.5.jar:3.0.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293) ~[spring-boot-3.0.5.jar:3.0.5]
+	at com.hemanth.AllinOneProgram.AllinOneProgramApplication.main(AllinOneProgramApplication.java:14) ~[classes/:na]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': warning no match for this type name: com.hemanth.AllinOneProgram.controller.StudentController.addStudents [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:605) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:415) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:111) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:280) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1127) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1102) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:509) ~[spring-beans-6.0.7.jar:6.0.7]
+	... 14 common frames omitted
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.hemanth.AllinOneProgram.controller.StudentController.addStudents [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:319) ~[aspectjweaver-1.9.19.jar:na]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:222) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:193) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:172) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:288) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:320) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:366) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:318) ~[spring-aop-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:434) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1773) ~[spring-beans-6.0.7.jar:6.0.7]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.7.jar:6.0.7]
+	... 36 common frames omitted
+
+2023-04-18T19:48:26.060+05:30  INFO 5136 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 5136 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T19:48:26.064+05:30  INFO 5136 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T19:48:27.116+05:30  INFO 5136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T19:48:27.232+05:30  INFO 5136 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interfaces.
+2023-04-18T19:48:28.048+05:30  INFO 5136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T19:48:28.249+05:30  INFO 5136 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2117 ms
+2023-04-18T19:48:28.566+05:30  INFO 5136 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T19:48:28.677+05:30  INFO 5136 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T19:48:29.064+05:30  INFO 5136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T19:48:29.314+05:30  INFO 5136 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@239b98cb
+2023-04-18T19:48:29.317+05:30  INFO 5136 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T19:48:29.419+05:30  INFO 5136 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T19:48:30.579+05:30  INFO 5136 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T19:48:30.590+05:30  INFO 5136 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:48:31.253+05:30  WARN 5136 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T19:48:31.735+05:30  WARN 5136 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T19:48:31.787+05:30  INFO 5136 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T19:48:31.801+05:30  INFO 5136 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 6.447 seconds (process running for 7.419)
+2023-04-18T19:48:31.830+05:30  INFO 5136 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:48:31.834+05:30  INFO 5136 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18T19:48:31.842+05:30  INFO 5136 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18T19:50:02.042+05:30  INFO 11944 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 11944 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T19:50:02.045+05:30  INFO 11944 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T19:50:03.079+05:30  INFO 11944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T19:50:03.159+05:30  INFO 11944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2023-04-18T19:50:04.131+05:30  INFO 11944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T19:50:04.149+05:30  INFO 11944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18T19:50:04.150+05:30  INFO 11944 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-18T19:50:04.262+05:30  INFO 11944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18T19:50:04.262+05:30  INFO 11944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2143 ms
+2023-04-18T19:50:04.448+05:30  INFO 11944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T19:50:04.542+05:30  INFO 11944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T19:50:04.936+05:30  INFO 11944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T19:50:05.190+05:30  INFO 11944 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@239b98cb
+2023-04-18T19:50:05.192+05:30  INFO 11944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T19:50:05.270+05:30  INFO 11944 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T19:50:06.473+05:30  INFO 11944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T19:50:06.489+05:30  INFO 11944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:50:07.184+05:30  WARN 11944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T19:50:07.644+05:30  WARN 11944 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T19:50:07.689+05:30  INFO 11944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T19:50:07.703+05:30  INFO 11944 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 6.325 seconds (process running for 7.418)
+2023-04-18T19:50:23.886+05:30  INFO 11944 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18T19:50:23.887+05:30  INFO 11944 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18T19:50:23.889+05:30  INFO 11944 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-18T19:50:24.172+05:30  INFO 11944 --- [http-nio-7070-exec-1] c.h.A.controller.StudentController       : This is Inside Post Method 
+2023-04-18T19:53:14.451+05:30  INFO 11944 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:53:14.455+05:30  INFO 11944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18T19:53:14.468+05:30  INFO 11944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18T19:53:23.024+05:30  INFO 12368 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 12368 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T19:53:23.028+05:30  INFO 12368 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T19:53:24.012+05:30  INFO 12368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T19:53:24.086+05:30  INFO 12368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interfaces.
+2023-04-18T19:53:25.047+05:30  INFO 12368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T19:53:25.059+05:30  INFO 12368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18T19:53:25.059+05:30  INFO 12368 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-18T19:53:25.162+05:30  INFO 12368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18T19:53:25.163+05:30  INFO 12368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2052 ms
+2023-04-18T19:53:25.331+05:30  INFO 12368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T19:53:25.394+05:30  INFO 12368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T19:53:25.830+05:30  INFO 12368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T19:53:26.084+05:30  INFO 12368 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7ef41ca2
+2023-04-18T19:53:26.086+05:30  INFO 12368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T19:53:26.137+05:30  INFO 12368 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T19:53:27.166+05:30  INFO 12368 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T19:53:27.178+05:30  INFO 12368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T19:53:27.937+05:30  WARN 12368 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T19:53:28.482+05:30  WARN 12368 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T19:53:28.530+05:30  INFO 12368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T19:53:28.544+05:30  INFO 12368 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 6.14 seconds (process running for 7.018)
+2023-04-18T19:54:01.426+05:30  INFO 12368 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18T19:54:01.427+05:30  INFO 12368 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18T19:54:01.429+05:30  INFO 12368 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-18T19:54:01.713+05:30  INFO 12368 --- [http-nio-7070-exec-1] c.h.A.controller.StudentController       : Post Method Begins 
+2023-04-18T19:54:15.935+05:30  INFO 12368 --- [http-nio-7070-exec-4] c.h.A.controller.StudentController       : This is Inside Get Method
+2023-04-18T20:30:18.623+05:30  INFO 12368 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T20:30:18.627+05:30  INFO 12368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-04-18T20:30:18.659+05:30  INFO 12368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-04-18T20:30:27.537+05:30  INFO 3456 --- [main] c.h.A.AllinOneProgramApplication         : Starting AllinOneProgramApplication using Java 20 with PID 3456 (C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram\AllinOneProgram\target\classes started by admin in C:\Users\admin\IdeaProjects\Assessment_Study\AllinOneProgram)
+2023-04-18T20:30:27.540+05:30  INFO 3456 --- [main] c.h.A.AllinOneProgramApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-04-18T20:30:28.558+05:30  INFO 3456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-18T20:30:28.655+05:30  INFO 3456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interfaces.
+2023-04-18T20:30:29.422+05:30  INFO 3456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7070 (http)
+2023-04-18T20:30:29.435+05:30  INFO 3456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-18T20:30:29.435+05:30  INFO 3456 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.7]
+2023-04-18T20:30:29.546+05:30  INFO 3456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-18T20:30:29.547+05:30  INFO 3456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1933 ms
+2023-04-18T20:30:29.743+05:30  INFO 3456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-18T20:30:29.815+05:30  INFO 3456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-04-18T20:30:30.157+05:30  INFO 3456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-18T20:30:30.359+05:30  INFO 3456 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e151e1f
+2023-04-18T20:30:30.362+05:30  INFO 3456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-18T20:30:30.424+05:30  INFO 3456 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-04-18T20:30:31.544+05:30  INFO 3456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-18T20:30:31.555+05:30  INFO 3456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-18T20:30:32.225+05:30  WARN 3456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-18T20:30:32.741+05:30  WARN 3456 --- [main] ocalVariableTableParameterNameDiscoverer : Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-04-18T20:30:32.779+05:30  INFO 3456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7070 (http) with context path ''
+2023-04-18T20:30:32.790+05:30  INFO 3456 --- [main] c.h.A.AllinOneProgramApplication         : Started AllinOneProgramApplication in 5.883 seconds (process running for 6.843)
+2023-04-18T20:30:39.175+05:30  INFO 3456 --- [http-nio-7070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-18T20:30:39.176+05:30  INFO 3456 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-18T20:30:39.178+05:30  INFO 3456 --- [http-nio-7070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-04-18T20:30:39.245+05:30  INFO 3456 --- [http-nio-7070-exec-1] c.h.A.controller.StudentController       : This is Inside Get Method
+2023-04-18T21:21:31.339+05:30  WARN 3456 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=42m30s588ms889µs200ns).
